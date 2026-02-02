@@ -3,7 +3,8 @@
 ## How to run?
 
 ```bash
-g++ -O3 -march=native -std=c++20 useragent.cpp -o useragent
+g++ -O3 -march=native -std=c++20 core/useragent.cpp -o useragent
+g++ -O2 -std=c++20 core/post.cpp -lcurl -o post
 ```
 
 ## Args:
